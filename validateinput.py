@@ -16,6 +16,6 @@ def stringValuesValidation(input_string):
     pattern = re.compile('[a-zA-Z1-9]+')
 	# check to see if input matches your desired string pattern
     while pattern.match(input_string) == None:
-        input_numeric = input("Bad input: ")
+        input_string = input("Bad input: ")
     
-    return input_numeric
+    return input_string
